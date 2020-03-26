@@ -1,0 +1,3 @@
+[submodule "site/themes/raditian"]
+	path = site/themes/raditian
+	url = https://github.com/LeahWilleke/raditian-free-hugo-theme
