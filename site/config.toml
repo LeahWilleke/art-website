@@ -1,7 +1,7 @@
 baseurl = ""
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Emery's Art"
 publishDir = "docs"
 
 # RSS, categories and tags disabled for an easy start
@@ -23,6 +23,8 @@ theme = "raditian"
   URL = "css/main.css"
   [[params.plugins.css]]
   URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/art-bois.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
 
@@ -65,8 +67,8 @@ theme = "raditian"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Bilbo"
-    text2 = "Baggins"
+    text1 = "Joy"
+    text2 = "Emery"
 
   [params.footer]
       copyright = "Copyright © 2020 Leah Willeke. All rights reserved."
