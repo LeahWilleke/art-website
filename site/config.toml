@@ -10,3 +10,63 @@ publishDir = "docs"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 theme = "raditian"
+
+#######################################
+# Config to remove. The theme does too much with data & params to customize, rather than using templates and blocks.
+
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Gallery"
+  URL = "#gallery"
+  weight = 3
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Gallery"
+  URL = "#gallery"
+  weight = 3
+
+
+[params]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Andreas"
+    text2 = "Ellure"
+
+  [params.footer]
+      copyright = "Copyright © 2020 Leah Willeke. All rights reserved."
