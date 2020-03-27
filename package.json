@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
+    "dev": "hugo serve -d ../docs -s site -e development --config config.toml -v",
     "start": "run-p start:**",
     "start:hugo": "hugo -d ../docs -s site -e development --config config.toml -vw",
     "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",

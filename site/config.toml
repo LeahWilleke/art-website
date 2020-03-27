@@ -65,8 +65,8 @@ theme = "raditian"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+    text1 = "Bilbo"
+    text2 = "Baggins"
 
   [params.footer]
       copyright = "Copyright © 2020 Leah Willeke. All rights reserved."
