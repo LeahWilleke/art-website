@@ -4,3 +4,15 @@
 	height:284px;
 	margin-top: 55px;
 }   
+.circleimgs {
+	position:absolute;
+	left: 11px;
+	width: 212px;
+}
+.folderimgs {
+	top: 50px;
+	position:absolute;
+	left: 0px;
+	width: 234px; 
+	height:234px
+}
