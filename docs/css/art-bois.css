@@ -16,3 +16,11 @@
 	width: 234px; 
 	height:234px
 }
+.text {
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top: 150px;
+	font-size: 2.5em;
+	font-family: 'Fredericka the Great', cursive;
+}
