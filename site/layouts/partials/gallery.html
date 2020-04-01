@@ -21,14 +21,14 @@
 
                     <p>Watercolour</p>
                 </div>
-                {{ range $i, $sequence :=  (seq 4) }}
-<div class="folder">
-    <img class="circleimgs" src="{{ $.Site.BaseURL }}/img/circlefishswarm.png">
-    <img class="folderimgs" src="{{ $.Site.BaseURL }}/img/folderpic.png">
+                {{ range $i, $sequence :=  (seq  4) }}
+                <div class="folder">
+                    <img class="circleimgs" src="{{ $.Site.BaseURL }}/img/circlefishswarm.png">
+                    <img class="folderimgs" src="{{ $.Site.BaseURL }}/img/folderpic.png">
 
-    <p>Watercolour</p>
-</div>
-{{ end }}
+                    <p>{{ $i }}</p>
+                </div>
+                {{ end }}
             </div>
         </div>
     </div>
