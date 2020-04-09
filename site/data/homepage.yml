@@ -5,10 +5,10 @@ showcase:
   subtitle: "Artist"
   description: "I am an artist who paints and carves. I also write gothic letters. This is a website showing my art!"
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "/img/watercolour-2-snowcabin.jpg"
+    _2x: "/img/watercolour-2-snowcabin.jpg"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "/img/watercolour-2-snowcabin.jpg"
 
 
 # about
