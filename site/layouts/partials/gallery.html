@@ -21,13 +21,9 @@
 
                     <p>Watercolour</p>
                 </div>
-                {{ range $i, $sequence :=  (seq  4) }}
-                <div class="folder">
-                    <img class="circleimgs" src="{{ $.Site.BaseURL }}/img/circlefishswarm.png">
-                    <img class="folderimgs" src="{{ $.Site.BaseURL }}/img/folderpic.png">
-
-                    <p>{{ $i }}</p>
-                </div>
+                {{ range $i, $sequence :=  (slice "Acrylic" "Gothic" 3 4) }}
+                {{ partial "wholefolder" $ }}
+                <p>{{ . }}</p>
                 {{ end }}
             </div>
         </div>
