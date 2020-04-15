@@ -10,11 +10,13 @@
                 <img src="{{ .Site.BaseURL }}/img/watercolour-2-snowcabin.jpg"
                     style="padding: 5px;border:2px red solid;width: 40%;">
 
-                <a class="folder" href="/carvings/">
+                {{ range .Pages }}
+                <a class="folder" href="{{ .RelPermalink }}">
                     <img class="circleimgs" src="{{ .Site.BaseURL }}/img/circlefishswarm.png">
                     <img class="folderimgs" src="{{ .Site.BaseURL }}/img/folderpic.png">
-                    <p> Carvings</p>
+                    <p>Carvings</p>
                 </a>
+                {{ end }}
                 {{ range $i, $sequence :=  (slice "Watercolour" "Acrylic" "Gothic") }}
                 {{ partial "wholefolder" (dict "ctx" $ "name" .) }}
                 {{ end }}
