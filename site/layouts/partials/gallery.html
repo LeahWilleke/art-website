@@ -14,7 +14,7 @@
                 <a class="folder" href="{{ .RelPermalink }}">
                     <img class="circleimgs" src="{{ .Site.BaseURL }}/img/circlefishswarm.png">
                     <img class="folderimgs" src="{{ .Site.BaseURL }}/img/folderpic.png">
-                    <p>Carvings</p>
+                    <p>{{ .Params.name }}</p>
                 </a>
                 {{ end }}
                 {{ range $i, $sequence :=  (slice "Watercolour" "Acrylic" "Gothic") }}
