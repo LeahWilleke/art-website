@@ -15,13 +15,7 @@
                     <img class="folderimgs" src="{{ .Site.BaseURL }}/img/folderpic.png">
                     <p> Carvings</p>
                 </a>
-                <div class="folder">
-                    <img class="circleimgs" src="{{ .Site.BaseURL }}/img/circlefishswarm.png">
-                    <img class="folderimgs" src="{{ .Site.BaseURL }}/img/folderpic.png">
-
-                    <p>Watercolour</p>
-                </div>
-                {{ range $i, $sequence :=  (slice "Acrylic" "Gothic" 3 4) }}
+                {{ range $i, $sequence :=  (slice "Watercolour" "Acrylic" "Gothic") }}
                 {{ partial "wholefolder" $ }}
                 <p>{{ . }}</p>
                 {{ end }}
