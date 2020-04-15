@@ -16,8 +16,7 @@
                     <p> Carvings</p>
                 </a>
                 {{ range $i, $sequence :=  (slice "Watercolour" "Acrylic" "Gothic") }}
-                {{ partial "wholefolder" $ }}
-                <p>{{ . }}</p>
+                {{ partial "wholefolder" (dict "ctx" $ "name" .) }}
                 {{ end }}
             </div>
         </div>
