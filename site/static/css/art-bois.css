@@ -3,7 +3,7 @@
 	display: block;
 	width: 234px; 
 	height:284px;
-	margin-top: 55px;
+	margin: 55px 20px 20px;
 }
 .circleimgs {
 	position:absolute;
@@ -29,7 +29,7 @@
 	background: radial-gradient(ellipse closest-side, red, red, red, white);
 	width: 274px; 
 	height: 324px;
-	margin: 35px -20px -20px -20px;
+	margin: 55px 0 -20px 0;
 }
 .folder:hover .circleimgs {
 	left: 31px;
@@ -41,4 +41,9 @@
 }
 .folder:hover p {
 	top: 170px;
+}
+.folder-zone {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
