@@ -3,13 +3,6 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>Emery's Art</h1>
-
-                <h3>This is a gallery of art stuff!</h3>
-
-                <img src="{{ .Site.BaseURL }}/img/watercolour-2-snowcabin.jpg"
-                    style="padding: 5px;border:2px red solid;width: 40%;">
-
                 {{ range .Pages }}
                 <a class="folder" href="{{ .RelPermalink }}">
                     <img class="circleimgs" src="{{ .Site.BaseURL }}/img/circlefishswarm.png">
