@@ -1,6 +1,6 @@
 {
-	"name": "Gothic"
+	"name": "Gothic Lettering"
 }
-# Gothic
+# Gothic Lettering
 
 ![carving of an angel with a sword](/img/carving-1-bladed-angel.jpg)

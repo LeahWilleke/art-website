@@ -24,6 +24,7 @@
 	top: 150px;
 	font-size: 2.5em;
 	font-family: 'Fredericka the Great', cursive;
+	line-height: 0.8;
 }
 .folder:hover {
 	background: radial-gradient(ellipse closest-side, red, red, red, white);
