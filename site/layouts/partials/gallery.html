@@ -10,9 +10,6 @@
                     <p>{{ .Params.name }}</p>
                 </a>
                 {{ end }}
-                {{ range $i, $sequence :=  (slice "Watercolour" "Acrylic" "Gothic") }}
-                {{ partial "wholefolder" (dict "ctx" $ "name" .) }}
-                {{ end }}
             </div>
         </div>
     </div>
